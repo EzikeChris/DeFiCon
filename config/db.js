@@ -22,7 +22,7 @@
 const mongoose = require("mongoose");
 
 //connect to mongodb
-mongoose.connect("mongodb://localhost:27017/devlist", {
+mongoose.connect("mongodb://localhost:27017/devlist,", {
   useUnifiedTopology: true,
   useNewUrlParser: true,
   useCreateIndex: true,
