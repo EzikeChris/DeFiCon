@@ -26,6 +26,7 @@ mongoose.connect("mongodb://localhost:27017/devlist,", {
   useUnifiedTopology: true,
   useNewUrlParser: true,
   useCreateIndex: true,
+  useFindAndModify: false,
 });
 
 mongoose.connection
