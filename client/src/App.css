@@ -1,8 +1,8 @@
 /* Global Styles */
 :root {
-  --primary-color: #17a2b8;
-  --dark-color: #343a40;
-  --light-color: #f4f4f4;
+  --primary-color: #f00a3c;
+  --dark-color: #030405;
+  --light-color: #ffffff09;
   --danger-color: #dc3545;
   --success-color: #28a745;
 }
@@ -17,8 +17,8 @@ body {
   font-family: "Raleway", sans-serif;
   font-size: 1rem;
   line-height: 1.6;
-  background-color: #fff;
-  color: #333;
+  background-color: hsl(0, 0%, 0%);
+  color: rgb(255, 248, 248);
 }
 
 a {
@@ -145,7 +145,7 @@ img {
   text-align: center;
   margin: 0.3rem;
   background: var(--light-color);
-  color: #333;
+  color: rgb(255, 255, 255);
 }
 
 .alert {
@@ -169,7 +169,7 @@ img {
 .badge-light,
 .alert-light {
   background: var(--light-color);
-  color: #333;
+  color: rgb(255, 246, 246);
 }
 
 .btn-dark,
@@ -201,7 +201,7 @@ img {
 .badge-white,
 .alert-white {
   background: #fff;
-  color: #333;
+  color: rgb(255, 248, 248);
   border: #ccc solid 1px;
 }
 
@@ -220,7 +220,7 @@ img {
 
 .line {
   height: 1px;
-  background: #ccc;
+  background: rgb(243, 243, 243);
   margin: 1.5rem 0;
 }
 
@@ -255,7 +255,7 @@ img {
   width: 100%;
   padding: 0.4rem;
   font-size: 1.2rem;
-  border: 1px solid #ccc;
+  border: 1px solid rgb(63, 54, 54);
 }
 
 .form input[type="submit"],
@@ -317,13 +317,13 @@ button {
 }
 
 .navbar a {
-  color: red;
+  color: rgb(155, 156, 161);
   padding: 0.45rem;
   margin: 0 0.25rem;
 }
 
 .navbar a:hover {
-  color: var(--primary-color);
+  color: rgb(250, 239, 239);
 }
 
 .navbar .welcome span {
@@ -334,7 +334,7 @@ button {
 .landing {
   position: relative;
   background: url("./img/showcase.jpg") no-repeat center center/cover;
-  height: 100vh;
+  height: 110vh;
 }
 
 .landing-inner {
